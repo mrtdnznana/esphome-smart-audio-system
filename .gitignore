@@ -1,0 +1,11 @@
+# Git ignore settings for ESPHome Project
+secrets.yaml
+secrets.yaml.bak
+*.env
+.esphome/
+.vscode/
+*.bin
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
