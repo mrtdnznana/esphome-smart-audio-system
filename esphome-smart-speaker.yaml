@@ -3,14 +3,14 @@ esphome:
   friendly_name: "Smart Audio Speaker"
 
 esp32:
-  board: esp32-s3-devkitc1-n16r8
+  board: esp32-s3-devkitc-1
   variant: esp32s3
   framework:
     type: esp-idf
 
-# PSRAM ayarı (ESP32-S3 Octal PSRAM için 80MHz önerilir)
+# PSRAM ayarı (ESP32-S3 N8R2 Quad PSRAM için 80MHz)
 psram:
-  mode: octal
+  mode: quad
   speed: 80MHz
 
 logger:
